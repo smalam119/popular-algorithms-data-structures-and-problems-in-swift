@@ -1,0 +1,17 @@
+//Max and Second Max
+//by Sayed Mahmudul Alam
+
+func getMaxAndSecondMax(array: [Int]) -> (Int, Int) {
+	var max = 0
+	var sMax = 0
+	for i in 0...array.count - 1 {
+		if(i > max) {
+			sMax = max
+			max = array[i]
+		} else if(i > sMax) {
+			sMax = array[i]
+		}
+	}
+	
+	return (max,sMax)
+}
