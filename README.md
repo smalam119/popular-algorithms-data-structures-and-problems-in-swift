@@ -39,6 +39,7 @@ Author
 Reference
 =======
 * Robert Lafore, *Data Structures & Algorithms (2nd ed.)*
+* Online resource
 
 License
 =======
