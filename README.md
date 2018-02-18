@@ -21,6 +21,7 @@ toward that process. Feel free to contribute. Cheers.
     * [Stack Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/StackArray.swift)
     
 **Problem Solving**
+* [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
 * [Array Rotation](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ArrayRotate.swift)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
