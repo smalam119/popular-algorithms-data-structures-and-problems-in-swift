@@ -1,3 +1,6 @@
+//Prime Number
+//by Sayed Mahmudul Alam
+
 struct PrimeNumber {
 	
 	func isPrimeNumber(number: Int) -> Bool {

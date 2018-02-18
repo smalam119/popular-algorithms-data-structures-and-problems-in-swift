@@ -1,3 +1,6 @@
+//Binary Search
+//by Sayed Mahmudul Alam
+
 struct BinarySearch {
 	
 	func searchRecursion(key: Int, array: [Int], start: Int, end: Int) -> Int {

@@ -1,3 +1,6 @@
+//Reverse Word
+//by Sayed Mahmudul Alam
+
 struct ReverseWord {
 	
 	func reverseRecursion(word: String) -> String {
@@ -7,7 +10,7 @@ struct ReverseWord {
 			let startIndex = word.index(word.startIndex, offsetBy: 1)
 			let substring = word[startIndex...]
 			return reverseWordRecursion(word: String(describing: substring)) + String(describing:
-																				  word[word.startIndex])
+								word[word.startIndex])
 		}
 	}
 }

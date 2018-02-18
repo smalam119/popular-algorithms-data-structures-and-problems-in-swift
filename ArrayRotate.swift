@@ -1,3 +1,6 @@
+//Array Rotate
+//by Sayed Mahmudul Alam
+
 struct ArrayRotate {
 	
 	func rotate(array: [Int], numberOfRotation: Int) -> [Int] {
