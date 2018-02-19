@@ -17,6 +17,8 @@ toward that process. Feel free to contribute. Cheers.
         * [Link Queue](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/LinkedList/SinglyLinkedList/LinkQueue.swift)
         * [Link Stack](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/LinkedList/SinglyLinkedList/LinkStack.swift)
         * [Linked List](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/LinkedList/SinglyLinkedList/LinkedList.swift)
+    * [Doubly Linked List](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/tree/master/DataStructure/LinkedList/DoublyLinkedList)
+      * [Linked List](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/LinkedList/DoublyLinkedList/DoublyLinkedList.swift)
     * [Queue Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/QueueArray.swift)
     * [Stack Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/StackArray.swift)
     
