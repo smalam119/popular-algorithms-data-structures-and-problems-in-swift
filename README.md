@@ -9,6 +9,7 @@ toward that process. Feel free to contribute. Cheers.
     * [Linear Search](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Search/LinearSearch.swift)
 * Sort
     * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/BubbleSort.swift)
+    * [Selection Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSort.swift)
     
 **Data Structure**
 * Linked List
