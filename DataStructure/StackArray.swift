@@ -1,5 +1,5 @@
-//Stack
-//by Sayed Mahmudul Alam
+//Stack Array
+//Sayed Mahmudul Alam
 
 struct StackArray {
 	
@@ -25,16 +25,23 @@ struct StackArray {
 		}
 	}
 	
-	mutating func pop() {
+	mutating func pop() -> Int {
 		if(top >= 0) {
+			let temp = array[top]
 			array[top] = -1
 			top -= 1
+			return temp!
 		} else {
 			print("Stack underflow")
+			return -1
 		}
 	}
 	
 	func getTop() -> Int {
-		return top
+		return array[top]!
+	}
+	
+	func isEmpty() -> Bool {
+		return top == -1
 	}
 }
