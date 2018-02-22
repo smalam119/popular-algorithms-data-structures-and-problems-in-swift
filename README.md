@@ -10,6 +10,7 @@ toward that process. Feel free to contribute. Cheers.
 * Sort
     * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/BubbleSort.swift)
     * [Selection Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSort.swift)
+    * [Insertion Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/InsertionSort.swift)
     
 **Data Structure**
 * Linked List
@@ -22,6 +23,7 @@ toward that process. Feel free to contribute. Cheers.
       * [Linked List](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/LinkedList/DoublyLinkedList/DoublyLinkedList.swift)
     * [Queue Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/QueueArray.swift)
     * [Stack Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/StackArray.swift)
+    * [Queue using two stacks](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/QueueUsingTwoStacks.swift)
     
 **Problem Solving**
 * [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
