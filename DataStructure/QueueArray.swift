@@ -1,40 +1,42 @@
 //Stack
 //by Sayed Mahmudul Alam
 
-struct StackArray {
-	
-	private var top = -1
-	private var stackSize: Int?
-	private var array: Array<Int?>
-	
-	init(stackSize: Int) {
-		self.stackSize = stackSize
-		array = Array(repeating: nil, count: stackSize)
-		
-		for i in 0..<stackSize {
-			array[i] = -1
-		}
-	}
-	
-	mutating func push(element: Int) {
-		if(top < stackSize! ) {
-			top += 1
-			array[top] = element
-		} else {
-			print("Stack overflow!!!")
-		}
-	}
-	
-	mutating func pop() {
-		if(top >= 0) {
-			array[top] = -1
-			top -= 1
-		} else {
-			print("Stack underflow")
-		}
-	}
-	
-	func getTop() -> Int {
-		return top
-	}
+struct QueueArray {
+    
+    private var queueSize: Int?
+    private var front = 0
+    private var rear = -1
+    private var array: Array<Int?>
+    
+    init(queueSize: Int) {
+        self.queueSize = queueSize
+        array = Array(repeating: nil, count: queueSize)
+    }
+    
+    mutating func enqueue(data: Int) {
+        if rear < queueSize! {
+            rear += 1
+            array[rear] = data
+        } else {
+           print("Queue is full") 
+        }
+    }
+    
+    mutating func dequeue() -> Int? {
+        let temp = array[front]
+        if rear >= 0 {
+           front += 1
+           return temp
+        } else {
+            return nil
+        }
+    }
+    
+    mutating func peekFront() -> Int {
+        return array[front]!
+    }
+    
+    mutating func isEmpty() -> Bool {
+        return queueSize == 0
+    }
 }
