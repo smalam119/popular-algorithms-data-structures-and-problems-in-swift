@@ -25,6 +25,8 @@ toward that process. Feel free to contribute. Cheers.
     * [Queue Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/QueueArray.swift)
     * [Stack Array](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/StackArray.swift)
     * [Queue using two stacks](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/QueueUsingTwoStacks.swift)
+* Tree
+   * [Binary Tree](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/Tree/BinaryTree/BinaryTree.swift)
     
 **Problem Solving**
 * [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
@@ -32,10 +34,11 @@ toward that process. Feel free to contribute. Cheers.
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
 * [Max and Second Max](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/MaxSecondMax)
-* [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome)
+* [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome.swift)
 * [Prime Number](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/PrimeNumber.swift)
 * [Reverse Integer](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseInteger.swift)
 * [Reverse Word](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseWord.swift)
+* [Sum of All Digit](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/sumOfAllDigits.swift)
 * [Swap Without Temp](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/SwapWithoutTemp.swift)
 
 Author
