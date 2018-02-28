@@ -2,14 +2,12 @@
 //Sayed Mahmudul Alam
 
 struct SwapWithoutTemp {
-	func swapWithoutTemp(a : Int, b: Int) -> (Int, Int) {
-		var tempA = a
-		var tempB = b
+	func swap(a : inout Int, b: inout Int) -> (Int, Int) {
 		
-		tempA = tempA + tempB
-		tempB = tempA - tempB
-		tempA = tempA - tempB
+		a = a + b
+		b = a - b
+		a = a - b
 	
-		return (tempA,tempB)
+		return (a,b)
 	}
 }

@@ -5,10 +5,10 @@ func getMaxAndSecondMax(array: [Int]) -> (Int, Int) {
 	var max = 0
 	var sMax = 0
 	for i in 0...array.count - 1 {
-		if(i > max) {
+		if(array[i] > max) {
 			sMax = max
 			max = array[i]
-		} else if(i > sMax) {
+		} else if(array[i] > sMax) {
 			sMax = array[i]
 		}
 	}
