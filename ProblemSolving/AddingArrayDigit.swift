@@ -1,9 +1,9 @@
-//Adding two arrays
+//Adding two array digits
 //Sayed Mahmudul Alam
 //input a = [1,2,3,4] b = [1,2]
 //output c = [1,2,4,6]
 
-struct AddingArrays {
+struct AddingArrayDigit {
     func add(array1: [Int], array2: [Int]) -> [Int] {
     
         var temp = [Int]()
