@@ -29,10 +29,14 @@ toward that process. Feel free to contribute. Cheers.
    * [Binary Tree](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/DataStructure/Tree/BinaryTree/BinaryTree.swift)
     
 **Problem Solving**
+* [Adding Array Digits](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/AddingArrayDigit.swift)
+* [Adding LinkedList Digits](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/AddTwoLinkList.swift)
+* [Array Intersection](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/Intersection.swift)
 * [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
 * [Array Rotation](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ArrayRotate.swift)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
+* [Find Interger](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindIntegers.swift)
 * [Max and Second Max](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/MaxSecondMax)
 * [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome.swift)
 * [Prime Number](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/PrimeNumber.swift)
