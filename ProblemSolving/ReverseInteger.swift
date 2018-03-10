@@ -5,11 +5,11 @@ struct ReverseInteger {
 	
 	func reverse(number: Int) -> Int {
 		var reverseNumber = 0
-		var number = number
+		var tempNumber = number
 		
-		while number != 0 {
-			reverseNumber = reverseNumber * 10 + number % 10
-			number = number / 10
+		while tempNumber != 0 {
+			reverseNumber = reverseNumber * 10 + tempNumber % 10
+			tempNumber = tempNumber / 10
 		} 
 		
 		return reverseNumber
