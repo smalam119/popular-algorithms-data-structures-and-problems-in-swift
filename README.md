@@ -40,12 +40,15 @@ toward that process. Feel free to contribute. Cheers.
 * [Interger Palindrome](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/IntegerPalindrome.swift)
 * [Intersection](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/Intersection.swift)
 * [Longest Substring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestSub.swift)
+* [Longest Common Sunstring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestCommonPrefix.swift)
 * [Max and Second Max](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/MaxSecondMax)
 * [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome.swift)
 * [Prime Number](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/PrimeNumber.swift)
 * [Print Patterns](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/PrintPatterns.swift)
+* [Remove Duplicate](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RemoveDuplicates.swift)
 * [Reverse Integer](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseInteger.swift)
 * [Reverse Word](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseWord.swift)
+* [Roman to Integer](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RomanToInteger.swift)
 * [Sum of All Digit](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/sumOfAllDigits.swift)
 * [Swap Without Temp](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/SwapWithoutTemp.swift)
 
@@ -56,6 +59,7 @@ Author
 Reference
 =======
 * Robert Lafore, *Data Structures & Algorithms (2nd ed.)*
+* LeetCode
 * Online resource
 
 License
