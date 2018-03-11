@@ -1,3 +1,6 @@
+//Sayed Mahmudul Alam
+//Patterns
+
 struct PrintPatterns {
     
     func printPatternA(n: Int) {
@@ -44,6 +47,3 @@ struct PrintPatterns {
         }
     }
 }
-
-var printPatterns = PrintPatterns()
-printPatterns.printPyramid(n:7)
