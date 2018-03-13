@@ -1,7 +1,7 @@
 //Sum of All Digits
 //Sayed Mahmudul Alam
 
-struct sumOfAllDigits {
+struct SumOfAllDigits {
     private var sum = 0
     
     mutating func calculate(number: Int) -> Int {
