@@ -25,13 +25,18 @@ struct AddingArrayDigit {
         return intToArray(number: &sum)
     }
     
-    private func arrayToInt(array: [Int]) ->  Int {
-        var myString = ""
-        _ = array.map{ 
-            myString = myString + "\($0)" 
-        }
-        let number = Int(myString)
-        return number!
+    private func arrayToInt(array: [Int]) -> Int {
+    
+    var number = 0
+    var mult = 1
+    
+    for i in stride(from: array.count - 1, through: 0, by: -1) {
+        number += array[i] * mult
+        mult *= 10
+    }
+    
+    return number
+    
     }
     
     private func intToArray(number: inout Int) -> [Int] {
