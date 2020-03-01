@@ -3,13 +3,12 @@
 
 struct LinearSearch {
 	
-	func search(key: Int, array: [Int]) -> Int? {
-		for i in 0..<array.count {
-			if(array[i] == key) {
-				return i
-			}
-		}
-		
-		return nil
-	}
+    func search(key: Int, array: [Int]) -> Int {
+        for i in 0..<array.count {
+            if (key == array[i]) {
+                return i
+            }
+        }
+        return -1
+    }
 }
