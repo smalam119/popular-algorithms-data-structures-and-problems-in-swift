@@ -3,21 +3,20 @@
 
 struct BubbleSort {
 	
-	private func swap(left: inout Int, with right: inout Int, array: inout [Int]) {
-		let temp = array[left]
-		array[left] = array[right]
-		array[right] = temp
-	}
-	
-	func sort(array: inout [Int]) {
-		for out in stride(from: array.count - 1, to: 1, by: -1) {
-			for inn in stride(from: 0, to: out, by: 1) {
-				var m = inn
-				var n = inn + 1
-				if array[m] > array[n] {
-					swap(left: &m, with: &n, array: &array)
-				}
-			}
-		}
-	}
+    private func swap(left: Int, with right: Int, array: inout [Int]) {
+        let temp = array[left]
+        array[left] = array[right]
+        array[right] = temp
+    }
+
+    func sort(array: inout [Int]) -> [Int] {
+        for i in (0..<array.count).reversed() {
+            for j in 0..<i {
+                if (array[j] > array[j + 1]) {
+                    swap(left: j, with: j + 1, array: &array)
+                }
+            }
+        }
+        return array
+    }
 }
