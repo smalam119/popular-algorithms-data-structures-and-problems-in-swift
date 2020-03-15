@@ -10,6 +10,7 @@ toward that process. Feel free to contribute. Cheers.
 * Sort
     * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/BubbleSort.swift)
     * [Selection Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSort.swift)
+    * [Selection Sort - Alternative](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSortAlternative.swift)
     * [Insertion Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/InsertionSort.swift)
     * [Merge Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/MergeSort.swift)
     
