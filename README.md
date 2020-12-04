@@ -5,14 +5,14 @@ toward that process. Feel free to contribute. Cheers.
 
 **Algorithm**
 * Search
-    * [Binary Search](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Search/BinarySearch.swift)
-    * [Linear Search](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Search/LinearSearch.swift)
+    * [Binary Search](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Search/BinarySearch.playground)
+    * [Linear Search](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Search/LinearSearch.playground)
 * Sort
-    * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/BubbleSort.swift)
-    * [Selection Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSort.swift)
-    * [Selection Sort - Alternative](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/Algorithms/Sort/SelectionSortAlternative.swift)
-    * [Insertion Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/InsertionSort.swift)
-    * [Merge Sort](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/Algorithms/Sort/MergeSort.swift)
+    * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/BubbleSort.playground)
+    * [Selection Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/SelectionSort.playground)
+    * [Selection Sort - Alternative](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/SelectionSortAlt.playground)
+    * [Insertion Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/InsertionSort.playground)
+    * [Merge Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/MergeSort.playground)
     
 **Data Structure**
 * Linked List
