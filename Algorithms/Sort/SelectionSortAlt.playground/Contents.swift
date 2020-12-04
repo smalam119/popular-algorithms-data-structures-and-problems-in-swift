@@ -1,13 +1,9 @@
-//
-//  SelectionSortAlternative.swift
-//  
-//
-//  Created by Sayed Mahmudul Alam on 3/15/20.
-//
+// Selection sort
+// Sayed Mahmudul Alam
 
 import Foundation
 
-struct SelectionSortAlternative {
+struct SelectionSortAlt {
     
     private func findSmallest(array: [Int]) -> Int  {
         var smallest = array[0]
@@ -22,7 +18,7 @@ struct SelectionSortAlternative {
         return smallestIndex
     }
 
-    func selectionSort(array: inout [Int]) -> [Int] {
+    func sort(array: inout [Int]) -> [Int] {
         var sorted = [Int]()
         for i in array {
             let smallestIndex = findSmallest(array: array)
@@ -32,3 +28,7 @@ struct SelectionSortAlternative {
         return sorted
     }
 }
+
+var selectionSort = SelectionSortAlt()
+var numbers = [5,14,7,2,4]
+print(selectionSort.sort(array: &numbers))
