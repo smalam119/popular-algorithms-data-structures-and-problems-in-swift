@@ -1,0 +1,16 @@
+func minimumDifference(_ array: [Int]) -> Int {
+ let sorted = array.sorted {
+   $0 < $1
+ }
+ 
+ var diff = 1000
+ 
+ for i in 0..<sorted.count - 1 {
+   if (sorted[i + 1] - sorted[i]) < diff {
+     diff = sorted[i + 1] - sorted[i]
+   }
+ }
+ 
+ return diff
+ 
+}
