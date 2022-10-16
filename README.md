@@ -46,6 +46,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Longest Substring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestSub.swift)
 * [Longest Common Sunstring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestCommonPrefix.swift)
 * [Max and Second Max](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/MaxSecondMax)
+* [Minimum Difference](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/MinimumDifference)
 * [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome.swift)
 * [Prime Number](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/PrimeNumber.swift)
 * [Print Patterns](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/PrintPatterns.swift)
