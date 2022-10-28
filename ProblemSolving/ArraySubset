@@ -1,0 +1,22 @@
+import Foundation
+
+func isSubset(array1: [Int], array2: [Int]) -> Bool  {
+
+  var map = [Int: Int]()
+
+  for i in 0..<array1.count {
+    map[array1[i]] = map[array1[i]] ?? 0 + 1
+  }
+
+  for i in 0..<array2.count {
+    if map[array2[i]] ?? 0 > 0 {
+      map[array2[i]] = map[array2[i]] ?? 0 - 1
+    } else {
+      return false
+    }
+  }
+
+  return true
+}
+
+print(isSubset(array1: [11,1,13,21,3,7], array2: [12,3,7,1]))
