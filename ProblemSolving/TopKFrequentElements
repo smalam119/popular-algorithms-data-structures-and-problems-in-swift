@@ -1,0 +1,43 @@
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-347: https://leetcode.com/problems/top-k-frequent-elements/description/
+// Solution Ref: https://www.youtube.com/watch?v=YPTqKIgVk-k&ab_channel=NeetCode
+// Example Input: nums = [1,1,1,2,2,3], k = 2
+// Output: [1,2]
+
+class Solution {
+    func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
+
+        // Dictionary to hold count of each element
+        var count = [Int: Int]()
+
+        // Frequency table to hold the frequency of each number
+        var freq = [[Int]](repeating: [], count: nums.count + 1)
+
+        // Array to hold the result
+        var result = [Int]()
+
+        // Populating the `count` dictionary with actual counts
+        nums.forEach { n in
+            count[n] = 1 + (count[n] ?? 0)
+        }
+
+        // Populate the `freq` table with elements for each number
+        for (_,value) in count.enumerated() {
+            freq[value.1].append(value.0)
+        }
+
+        // Loop through `freq` in reverse and add the element of inner array to `result`
+        // till `result` is equal `k`
+        let sequence = stride(from: freq.count - 1, to: 0, by: -1)
+        for i in sequence {
+            for j in freq[i] {
+                result.append(j)
+                if result.count == k {
+                    return result
+                }
+            } 
+        }
+
+        return []
+    }
+}
