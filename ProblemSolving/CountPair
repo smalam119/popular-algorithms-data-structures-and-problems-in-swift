@@ -1,0 +1,20 @@
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-2006: https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/submissions/934045089/
+// Example Input: nums = [1,2,2,1], k = 1
+// Output: 4
+
+class Solution {
+    func countKDifference(_ nums: [Int], _ k: Int) -> Int {
+
+        var count = 0
+        var seen = [Int: Int]()
+
+        for i in nums {
+            count += seen[i - k] ?? 0
+            count += seen[i + k] ?? 0
+            seen[i, default:0] += 1
+        }
+
+        return count
+    }
+}
