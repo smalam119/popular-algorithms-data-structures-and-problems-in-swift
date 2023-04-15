@@ -37,6 +37,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Array Subset](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/ArraySubset)
 * [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
 * [Array Rotation](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ArrayRotate.swift)
+* [Count Pair](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/CountPair)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
 * [Find Interger](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindIntegers.swift)
