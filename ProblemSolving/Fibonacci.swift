@@ -1,14 +1,20 @@
-//Fibonacci
-//by Sayed Mahmudul Alam
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-509: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/
+// Solution Ref: https://www.youtube.com/watch?v=YPTqKIgVk-k&ab_channel=NeetCode
+// Example Input: n = 3
+// Output: 2
+// Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
 
-struct Fibonacci {
+class Solution {
+    func fib(_ n: Int) -> Int {
+        if n == 0 {
+            return 0
+        }
 
-	func getFibonacci(_ number: Int) -> Int {
-		assert(number > 0 && number < 1000, "Must choose a number between 0 and 1000.")
-		if number <= 2 {
-			return 1
-		} else {
-			return getFibonacci(number - 1) + getFibonacci(number - 2)
-		}
-	}
+        if n == 1 || n == 2 {
+            return 1
+        }
+
+        return fib(n-1) + fib(n-2)
+    }
 }
