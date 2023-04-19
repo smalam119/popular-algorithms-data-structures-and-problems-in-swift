@@ -1,16 +1,28 @@
+// Author: Sayed Mahmudul Alam
+// Example Input: array1 = [11,1,13,21,3,7,7], array2 = [21,3,7,11,7]
+// Output: true
+
+
 import Foundation
 
-func isSubset(array1: [Int], array2: [Int]) -> Bool  {
+func isSubset(array1: [Int], array2: [Int]) -> Bool {
 
+// if second array is bigger than the first array then it is not a subset
+  guard array2.count < array1.count else { return false }
+
+// dictionary to have the count of every element of `array1`
   var map = [Int: Int]()
 
-  for i in 0..<array1.count {
-    map[array1[i]] = map[array1[i]] ?? 0 + 1
+// add the count of every elemnt of 'array1' to 'map'
+  array1.forEach { n in
+  map[n] = map[n] ?? 0 + 1
   }
 
-  for i in 0..<array2.count {
-    if map[array2[i]] ?? 0 > 0 {
-      map[array2[i]] = map[array2[i]] ?? 0 - 1
+// check array2's element count in map.
+// if a elemnt's count is 0 then 'array2' is not a subset
+  for i in array2 {
+    if map[i] ?? 0 > 0 {
+    map[i] = map[i] ?? 0 - 1
     } else {
       return false
     }
@@ -18,5 +30,3 @@ func isSubset(array1: [Int], array2: [Int]) -> Bool  {
 
   return true
 }
-
-print(isSubset(array1: [11,1,13,21,3,7], array2: [12,3,7,1]))
