@@ -1,0 +1,28 @@
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-973: https://leetcode.com/problems/top-k-frequent-elements/description/
+// Example Input: points = [[1,3],[-2,2]], k = 1
+// Output: [[-2,2]]
+
+class Solution {
+    func kClosest(_ points: [[Int]], _ k: Int) -> [[Int]] {
+
+        // points count must be equal or grater than k
+        // k must be greater than 0
+        guard points.count >= k, k > 0 else {
+            return [[]]
+        }
+
+        // if points count is equal to k then return 'points'
+        if points.count == k {
+            return points
+        }
+
+        // sort 'points' by distance of each element to the origin
+        let distanceArray = points.sorted {
+            return ($0[0] * $0[0]) + ($0[1] * $0[1]) < ($1[0] * $1[0]) + ($1[1] * $1[1])
+        }
+
+        // return a prefix of the sorted array having the size of 'k'
+        return Array(distanceArray.prefix(k))
+    }
+}
