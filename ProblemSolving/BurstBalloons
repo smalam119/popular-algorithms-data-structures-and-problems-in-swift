@@ -1,0 +1,24 @@
+class Solution {
+    func findMinArrowShots(_ points: [[Int]]) -> Int {
+
+        // if input array is empty then no arrow needed
+        guard !points.isEmpty else { return 0 }
+
+        // sort the array in descending order 
+        let sorted = points.sorted { $0[1] < $1[1] }
+
+        var arrow = 1
+        var end = sorted[0][1]
+
+        // check if the start of a point is greater then the `end`
+        // if it's greater then will need another array and 'end' should be updated 
+        for i in 1..<points.count {
+            if sorted[i][0] > end {
+                arrow += 1
+                end = sorted[i][1]
+            }
+        }
+
+        return arrow
+    }
+}
