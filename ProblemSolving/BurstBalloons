@@ -1,3 +1,9 @@
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-452: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/
+// Solution Ref: https://www.youtube.com/watch?v=uC0aDIhwGdE&t=431s&ab_channel=NareshGupta
+// Example Input: points = [[10,16],[2,8],[1,6],[7,12]]
+// Output: 2
+
 class Solution {
     func findMinArrowShots(_ points: [[Int]]) -> Int {
 
