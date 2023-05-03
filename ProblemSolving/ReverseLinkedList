@@ -1,0 +1,36 @@
+// Source: LeetCode-206: https://leetcode.com/problems/reverse-linked-list/description/
+// Solution Ref: https://www.youtube.com/watch?v=NhapasNIKuQ&ab_channel=NickWhite
+// Example Input: head = [1,2,3,4,5]
+// Output: [5,4,3,2,1]
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public var val: Int
+ *     public var next: ListNode?
+ *     public init() { self.val = 0; self.next = nil; }
+ *     public init(_ val: Int) { self.val = val; self.next = nil; }
+ *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+ * }
+ */
+ 
+class Solution {
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        
+        var prev: ListNode? = nil
+        var h = head
+
+        while(h != nil) {
+            // get reference to the next node
+            var next = h?.next
+            // make next refers to prev
+            h?.next = prev
+            // update previous node as head
+            prev = h
+            // move head to the next node
+            h = next
+        }
+
+        return prev
+    }
+}
