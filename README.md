@@ -56,6 +56,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Print Patterns](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/PrintPatterns.swift)
 * [Remove Duplicate](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RemoveDuplicates.swift)
 * [Reverse Integer](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseInteger.swift)
+* [Reverse Linked List](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseLinkedList)
 * [Reverse Word](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseWord.swift)
 * [Roman to Integer](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RomanToInteger.swift)
 * [Search Insert Position](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/SearchInsertPosition.swift)
