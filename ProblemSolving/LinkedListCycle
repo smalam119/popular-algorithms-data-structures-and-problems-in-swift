@@ -1,0 +1,36 @@
+// Source: LeetCode-141: https://leetcode.com/problems/linked-list-cycle/description/
+// Solution Ref: https://www.youtube.com/watch?v=agkyC-rbgKM&ab_channel=FisherCoder
+// Example head = [3,2,0,-4], pos = 1
+// Output: true
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public var val: Int
+ *     public var next: ListNode?
+ *     public init(_ val: Int) {
+ *         self.val = val
+ *         self.next = nil
+ *     }
+ * }
+ */
+
+class Solution {
+    func hasCycle(_ head: ListNode?) -> Bool {
+
+        guard let head = head else { return false }
+
+        var fast = head.next
+        var slow = head
+
+        while(fast != nil && slow != nil) {
+
+            if fast === slow { return true }
+
+            fast = fast?.next?.next
+            slow = slow.next!
+        }
+
+        return false
+    }
+}
