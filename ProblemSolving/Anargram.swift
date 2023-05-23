@@ -1,34 +1,25 @@
-//Anargram
-//by Sayed Mahmudul Alam
+// Source: LeetCode-242: https://leetcode.com/problems/valid-anagram/description/
+// Example Input: s = "anagram", t = "nagaram"
+// Output: true
 
 struct Anargram {
-	
-	func isAnargram(word1: String, word2: String) -> Bool {
-		var word1UnicodeSum = 0
-		var word2UnicodeSum = 0
+	func isAnagram(_ s: String, _ t: String) -> Bool {
 		
-		if(word1.count != word2.count) {
-			return false
+		guard s.count == t.count else { return false }
+		
+		var map = [Character: Int]()
+		
+		for char in s {
+			map[char, default: 0] += 1
 		}
 		
-		for i in 0..<word1.count {
-			let c = word1.index(word1.startIndex, offsetBy: i)
-			let cUniCode = String(describing: c).unicodeScalars
-			let asciiValue = Int(cUniCode[cUniCode.startIndex].value)
-			word1UnicodeSum += asciiValue
+		for char in t {
+			if let count = map[char], count > 0 {
+				map[char] = count - 1
+			} else {
+				return false
+			}
 		}
-		
-		for i in 0..<word2.count {
-			let c = word2.index(word2.startIndex, offsetBy: i)
-			let cUniCode = String(describing: c).unicodeScalars
-			let asciiValue = Int(cUniCode[cUniCode.startIndex].value)
-			word2UnicodeSum += asciiValue
-		}
-		
-		if(word1UnicodeSum == word2UnicodeSum) {
-			return true
-		} else {
-			return false
-		}
+		return true
 	}
 }
