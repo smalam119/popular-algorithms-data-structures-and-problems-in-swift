@@ -1,0 +1,59 @@
+// Source: LeetCode-567: https://leetcode.com/problems/permutation-in-string/description/
+// Example Input: s1 = "ab", s2 = "eidbaooo"
+// Output: true
+
+class Solution {
+    func checkInclusion(_ s1: String, _ s2: String) -> Bool {
+
+        /// If s2 is smaller than s1, return false
+        guard s2.count >= s1.count else {
+            return false
+        }
+
+        var l = 0
+        var r = s1.count - 1
+
+        let s1 = Array(s1)
+        let s2 = Array(s2)
+
+        /// Create dictionary for frequency of s2 substring and frequency of s1 substring
+        var subFreq = [Character: Int]()
+        var s1Freq = [Character: Int]()
+
+        /// Initialize the dictionaries with the frequency of characters in the first substring of s2
+        for i in 0..<s1.count {
+            s1Freq[s1[i], default: 0] += 1
+            subFreq[s2[i], default: 0] += 1
+        }
+
+        /// If the dictionaries are equal, return true
+        if s1Freq == subFreq {
+            return true
+        }
+
+        /// Slide the window over s2 and update the dictionary
+        while r != s2.count - 1 {
+            l += 1
+            r += 1
+
+            /// Slide left and decrement the fequency
+            subFreq[s2[l - 1], default: 0] -= 1
+
+            /// If frequency is 0 remove frequency
+            if subFreq[s2[l - 1], default: 0] == 0 {
+                subFreq.removeValue(forKey: s2[l - 1])
+            }
+
+            /// Slide right and increment the fequency
+            subFreq[s2[r], default: 0] += 1
+
+            /// If the dictionaries are equal, return true
+            if s1Freq == subFreq {
+                return true
+            }
+        }
+
+        /// If loop ends, return false
+        return false
+    }
+}
