@@ -1,0 +1,21 @@
+// Author: Sayed Mahmudul Alam
+// Source: LeetCode-344: https://leetcode.com/problems/reverse-string/description/
+// Example Input: s = ["h","e","l","l","o"]
+// Output: ["o","l","l","e","h"]
+
+class Solution {
+    func reverseString(_ s: inout [Character]) {
+        guard !s.isEmpty else { return }
+
+        var l = 0
+        var r = s.count - 1
+
+        while l < r {
+            let temp = s[l]
+            s[l] = s[r]
+            s[r] = temp
+            l += 1
+            r -= 1
+        }
+    }
+}
