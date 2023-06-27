@@ -38,6 +38,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Anargram](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Anargram.swift)
 * [Array Rotation](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ArrayRotate.swift)
 * [Burst Ballons](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/BurstBalloons)
+* [Buy sell stock](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/BuySellStock)
 * [Count Pair](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/CountPair)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
