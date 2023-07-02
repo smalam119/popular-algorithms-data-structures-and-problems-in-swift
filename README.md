@@ -42,6 +42,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Buy sell stock 2](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/BuySellStock2)
 * [Count Pair](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/CountPair)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
+* [Nearest Distance To Character](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/NearestDistanceToCharacter)
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
 * [Find Interger](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindIntegers.swift)
 * [Find The Missing Number](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindTheMissingNumber.swift)
