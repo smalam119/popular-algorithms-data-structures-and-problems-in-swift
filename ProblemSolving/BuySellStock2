@@ -1,0 +1,18 @@
+// Source: LeetCode-122: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+// Example Input: prices = [7,1,5,3,6,4]
+// Output: 7
+
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        guard !prices.isEmpty else { return 0 }
+
+        var profit = 0
+
+        for i in 1..<prices.count {
+            guard prices[i] > prices[i-1] else { continue }
+            profit += prices[i] - prices[i-1]
+        }
+
+        return profit
+    }
+}
