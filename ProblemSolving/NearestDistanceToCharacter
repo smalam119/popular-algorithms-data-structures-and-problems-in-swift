@@ -1,0 +1,38 @@
+// Source: LeetCode-821: https://leetcode.com/problems/shortest-distance-to-a-character/description/
+// Example Input: s = "aaab", c = "b"
+// Output: [3,2,1,0]
+
+class Solution {
+    func shortestToChar(_ s: String, _ c: Character) -> [Int] {
+        var answer = [Int]()
+        var chars = Array(s)
+        var matchedIndices = [Int]()
+
+        for(index, char) in chars.enumerated() {
+            if char == c { matchedIndices.append(index) }
+        }
+
+        var low = 0
+        var high = 0
+        var index = 0
+
+        if matchedIndices.count > 1 { high = 1 }
+
+        while index < chars.count {
+            let lowIndexValue = abs(index - matchedIndices[low])
+            let highIndexValue = abs(index - matchedIndices[high])
+            let minValue = min(lowIndexValue, highIndexValue)
+            answer.append(minValue)
+
+            if highIndexValue == minValue {
+                if low < matchedIndices.count - 1 { low += 1 }
+                if high < matchedIndices.count - 1 { high += 1 }
+            }
+
+            index += 1
+
+        }
+
+        return answer
+    }
+}
