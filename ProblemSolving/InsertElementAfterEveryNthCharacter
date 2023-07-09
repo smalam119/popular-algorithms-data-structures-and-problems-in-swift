@@ -1,0 +1,8 @@
+// Example Input: "11231245"
+// Output: "112$312$45"
+
+class Solution {
+    func insertElement(to inputText: String, after: Int) -> String {
+        String(inputText.enumerated().map { $0 > 0 && $0 % after == 0 ? ["$", $1] : [$1]}.joined())
+    }
+}
