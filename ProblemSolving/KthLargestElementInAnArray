@@ -1,0 +1,27 @@
+// Source: LeetCode-215: https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+// Example Input: nums = [3,2,1,5,6,4], k = 2
+// Output: 5
+
+class Solution {
+    func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
+        if nums.count == 1 {
+            return nums[0]
+        }
+
+        let pivot = nums.randomElement()!
+
+        var left = nums.filter { $0 < pivot }
+        var right = nums.filter { $0 > pivot }
+        var equal = nums.filter { $0 == pivot }
+
+        if k <= right.count {
+            return findKthLargest(right, k)
+        }
+
+        if k > right.count + equal.count {
+            return findKthLargest(left, k - right.count - equal.count)
+        }
+
+        return pivot
+    }
+}
