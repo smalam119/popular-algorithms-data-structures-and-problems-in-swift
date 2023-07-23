@@ -1,4 +1,4 @@
-// Source: LeetCode-235: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+// Source: LeetCode-235: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
 // Solution Ref: https://www.youtube.com/watch?v=gs2LMfuOR9k&t=334s&ab_channel=NeetCode
 // Example Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 // Output: 6
