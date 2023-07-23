@@ -1,0 +1,41 @@
+// Source: LeetCode-236: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/
+// Solution Ref: https://www.youtube.com/watch?v=WO1tfq2sbsI&ab_channel=CrackingFAANG
+// Example Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+// Output: 3
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public var val: Int
+ *     public var left: TreeNode?
+ *     public var right: TreeNode?
+ *     public init(_ val: Int) {
+ *         self.val = val
+ *         self.left = nil
+ *         self.right = nil
+ *     }
+ * }
+ */
+
+class Solution {
+    func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+
+        guard let root = root, let p = p, let q = q else {
+            return nil
+        }
+
+        if root.val == p.val || root.val == q.val {
+            return root
+        }
+
+        let leftSearch = lowestCommonAncestor(root.left, p, q)
+        let rightSearch = lowestCommonAncestor(root.right, p, q)
+
+        if let foundLeft = leftSearch, let foundRight = rightSearch {
+            return root
+        }
+
+        return leftSearch ?? rightSearch
+
+    }
+}
