@@ -74,6 +74,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Sum of All Digit](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/SumOfAllDigits.swift)
 * [Swap Without Temp](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/SwapWithoutTemp.swift)
 * [Top K Frequent Elements](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/TopKFrequentElements)
+* [Valid Palindrome](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/ValidPalindrome)
 * [Valid Parentheses](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/ValidParentheses.swift)
 
 Author
