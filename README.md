@@ -47,6 +47,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Fibonacci](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Fibonacci.swift)
 * [Find Interger](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindIntegers.swift)
 * [Find The Missing Number](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/FindTheMissingNumber.swift)
+* [Find Duplicate](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/FindDuplicate)
 * [Greatest Common Divisor ](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/GCD.swift)
 * [Insert Element After Every Nth Character](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/InsertElementAfterEveryNthCharacter)
 * [Interger Palindrome](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/IntegerPalindrome.swift)
