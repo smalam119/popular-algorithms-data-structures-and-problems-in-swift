@@ -5,7 +5,7 @@ toward that process. Feel free to contribute. Cheers.
 
 **Algorithm**
 * Search
-    * [Binary Search](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Search/BinarySearch.playground)
+    * [Binary Search](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/Algorithms/Search/BinarySearch)
     * [Linear Search](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Search/LinearSearch.playground)
 * Sort
     * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/BubbleSort.playground)
