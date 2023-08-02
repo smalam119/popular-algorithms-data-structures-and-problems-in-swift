@@ -1,7 +1,6 @@
-//Sayed Mahmudul Alam
-//Checking validity of Parentheses
-//input = "[()]" output = true
-//input = "([]" output = false
+// Source: LeetCode-20: https://leetcode.com/problems/valid-parentheses/description/
+// Example Input: s = "()[]{}"
+// Output: true
 
 class ValidParentheses {
     func isValid(_ s: String) -> Bool {
@@ -40,5 +39,26 @@ class ValidParentheses {
         
         return temp.isEmpty
         
+    }
+
+    func isValidShort(_ s: String) -> Bool {
+
+        guard s.count % 2 == 0 else { return false }
+
+        var stack: [Character] = []
+
+        for item in s {
+            switch item {
+                case "(": stack.append(")")
+                case "{": stack.append("}")
+                case "[": stack.append("]")
+                default:
+                if stack.isEmpty || stack.removeLast() != item {
+                    return false
+                }
+            }
+        }
+
+        return stack.isEmpty
     }
 }
