@@ -65,6 +65,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Minimum Difference](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/MinimumDifference)
 * [Palindrome](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/Palindrome.swift)
 * [Permutation in String](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/PermutationInString)
+* [Plus One](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/PlusOne)
 * [Prime Number](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/PrimeNumber.swift)
 * [Print Patterns](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/PrintPatterns.swift)
 * [Remove Duplicate](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RemoveDuplicates.swift)
