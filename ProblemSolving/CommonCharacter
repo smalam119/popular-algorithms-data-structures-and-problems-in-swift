@@ -1,0 +1,25 @@
+// Source: https://www.geeksforgeeks.org/check-if-there-is-any-common-character-in-two-given-strings/
+// Example Input: s1 = "geeksforgeeks", s2 = "geeks"
+// Output: true
+
+import Foundation
+
+class Solution {
+
+  func checkCommon(t1: String, t2: String) -> Bool {
+
+    var map = [Character: Int]()
+
+    for t in t1 {
+      map[t] = map[t] ?? 0 + 1
+    }
+
+    for t in t2 {
+      if map[t] ?? 0 > 0 {
+        return true
+      }
+    }
+    return false
+  }
+
+}
