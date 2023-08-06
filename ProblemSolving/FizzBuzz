@@ -1,0 +1,22 @@
+// Source: LeetCode-412: https://leetcode.com/problems/fizz-buzz/description/
+// Example Input: n = 3
+// Output: ["1","2","Fizz"]
+
+
+class Solution {
+    func fizzBuzz(_ n: Int) -> [String] {
+
+        var output = [String]()
+
+        for num in 1...n {
+            switch (num % 3, num % 5) {
+                case (0, 0): output.append("FizzBuzz")
+                case (0, _): output.append("Fizz")
+                case (_, 0): output.append("Buzz")
+                default: output.append(String(num))
+            }
+        }
+
+        return output
+    }
+}
