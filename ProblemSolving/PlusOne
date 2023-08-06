@@ -1,0 +1,23 @@
+// Source: LeetCode-66: https://leetcode.com/problems/plus-one/description/
+// Example Input: digits = [1,2,3]
+// Output: [1,2,4]
+
+class Solution {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        
+        var temp = digits
+
+        for i in (0..<digits.count).reversed() {
+            if digits[i] < 9 {
+                temp[i] = temp[i] + 1
+                return temp
+            } else {
+                temp[i] = 0
+            }
+        }
+
+        temp.insert(1, at: 0)
+
+        return temp
+    }
+}
