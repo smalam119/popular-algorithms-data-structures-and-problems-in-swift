@@ -1,0 +1,20 @@
+// Source: LeetCode-283: https://leetcode.com/problems/move-zeroes/description/
+// Example Input: nums = [0,1,0,3,12]
+// Output: [1,3,12,0,0]
+
+class Solution {
+    func moveZeroes(_ nums: inout [Int]) {
+        var i = 0
+        var zeroes = 0
+
+        while i < nums.count - zeroes {
+            if nums[i] == 0 {
+                nums.append(0)
+                nums.remove(at: i)
+                zeroes += 1
+            } else {
+                i += 1
+            }
+        }
+    }
+}
