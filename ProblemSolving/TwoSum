@@ -1,0 +1,19 @@
+// Source: LeetCode-1: https://leetcode.com/problems/two-sum/description/
+// Example Input: numbers = [2,7,11,15], target = 9
+// Output: [1, 2]
+
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var map = [Int: Int]()
+
+        for (k,v) in nums.enumerated() {
+            if let key = map[target - v] {
+                return [k, key]
+            } else {
+                map[v] = k
+            }
+        }
+
+        return []
+    }
+}
