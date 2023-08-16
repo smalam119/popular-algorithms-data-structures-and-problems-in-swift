@@ -1,0 +1,18 @@
+// Source: LeetCode-151: https://leetcode.com/problems/reverse-words-in-a-string/description/
+// Example Input: s = "the sky is blue"
+// Output: "blue is sky the"
+
+class Solution {
+    func reverseWords(_ s: String) -> String {
+        var rev = s.split(separator: " ")
+        var start = 0, end = rev.count - 1
+
+        while start < end {
+            rev.swapAt(start, end)
+            start += 1
+            end -= 1
+        }
+
+        return rev.joined(separator: " ")
+    }
+}
