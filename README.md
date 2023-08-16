@@ -72,6 +72,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Print Patterns](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/PrintPatterns.swift)
 * [Remove Duplicates From Sorted Array](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/RemoveDuplicateSortedArray)
 * [Remove Duplicate](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RemoveDuplicates.swift)
+* [Reverse Words in String](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/ReversWordsInString)
 * [Reverse Array of String](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/ReverseArrayOfString)
 * [Reverse Integer](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseInteger.swift)
 * [Reverse Linked List](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseLinkedList)
