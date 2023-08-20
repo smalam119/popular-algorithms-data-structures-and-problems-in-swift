@@ -1,0 +1,47 @@
+// Source: LeetCode-283: https://leetcode.com/problems/move-zeroes/description/
+// Example Input: nums = [0,1,0,3,12]
+// Output: [1,3,12,0,0]
+
+class MyQueue {
+
+    private var input: [Int]
+    private var output: [Int]
+
+    init() {
+        self.input = []
+        self.output = []
+    }
+    
+    func push(_ x: Int) {
+        input.append(x)
+    }
+    
+    func pop() -> Int {
+        if output.isEmpty {
+            while !input.isEmpty {
+                output.append(input.last ?? -1)
+                input.removeLast()
+            }
+        }
+        return output.removeLast()
+    }
+    
+    func peek() -> Int {
+        if output.isEmpty {
+            return input.first ?? -1
+        }
+
+        return output.last ?? -1
+    }
+    
+    func empty() -> Bool { input.isEmpty && output.isEmpty }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * let obj = MyQueue()
+ * obj.push(x)
+ * let ret_2: Int = obj.pop()
+ * let ret_3: Int = obj.peek()
+ * let ret_4: Bool = obj.empty()
+ */`
