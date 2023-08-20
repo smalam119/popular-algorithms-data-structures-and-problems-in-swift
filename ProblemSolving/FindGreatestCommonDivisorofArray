@@ -1,0 +1,20 @@
+// Source: LeetCode-1979: https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/
+// Example Input: nums = [2,5,6,9,10]
+// Output: 2
+
+class Solution {
+    func findGCD(_ nums: [Int]) -> Int {
+        
+        let min = nums.min()!
+        let max = nums.max()!
+        var divisor = min
+
+        while true {
+            if max % divisor == 0 && min % divisor == 0 { return divisor }
+            divisor -= 1
+        }
+
+        return 1
+        
+    }
+}
