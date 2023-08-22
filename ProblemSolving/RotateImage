@@ -1,0 +1,29 @@
+// Source: LeetCode-48: https://leetcode.com/problems/rotate-image/description/
+// Example Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+// Output: [[7,4,1],[8,5,2],[9,6,3]]
+
+class Solution {
+    func rotate(_ matrix: inout [[Int]]) {
+        
+        /// Transpose
+
+        for i in 0..<matrix.count {
+            for j in i..<matrix.count {
+                let temp = matrix[i][j]
+                matrix[i][j] = matrix[j][i]
+                matrix[j][i] = temp
+            }
+        }
+
+        /// Reverse the Transpose
+
+        for i in 0..<matrix.count {
+            for j in 0..<matrix.count / 2 {
+                let temp = matrix[i][j]
+                matrix[i][j] = matrix[i][matrix.count - j - 1]
+                matrix[i][matrix.count - j - 1] = temp
+            }
+        }
+
+    }
+}
