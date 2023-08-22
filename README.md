@@ -80,6 +80,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Reverse Linked List](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseLinkedList)
 * [Reverse Word](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/ReverseWord.swift)
 * [Roman to Integer](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/RomanToInteger.swift)
+* [Rotate Image](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/RotateImage)
 * [Search Insert Position](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/SearchInsertPosition.swift)
 * [Sum of All Digit](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/SumOfAllDigits.swift)
 * [Swap Without Temp](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/SwapWithoutTemp.swift)
