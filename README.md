@@ -60,6 +60,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Kth Largest Element in an Array](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/KthLargestElementInAnArray)
 * [Linked List Cycle](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LinkedListCycle)
 * [Longest Substring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestSub.swift)
+* [Longest Substring Without Repeating Characters](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/LongestSubstringWithoutRepeatingCharacters)
 * [Longest Common Sunstring](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/LongestCommonPrefix.swift)
 * [Lowest Common Ancestor of a Binary Search Tree](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/LowestCommonAncestorOfABinarySearchTree)
 * [Lowest Common Ancestor of a Binary Tree](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/LowestCommonAncestorOfABinaryTree)
