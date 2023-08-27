@@ -1,0 +1,28 @@
+// Source: LeetCode-3: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+// Solution Ref: https://www.youtube.com/watch?v=3IETreEybaA
+// Example Input: s = "abcabcbb"
+// Output: 3
+
+class Solution {
+    func lengthOfLongestSubstring(_ s: String) -> Int {
+        
+        var l = 0
+        var r = 0
+        var result = 0
+        var map = Set<Character>()
+        let chars = Array(s)
+
+        while r < chars.count {
+            if !map.contains(chars[r]) {
+                map.insert(chars[r])
+                r += 1
+                result = max(map.count, result)
+            } else {
+                map.remove(chars[l])
+                l += 1
+            }
+        }
+
+        return result
+    }
+}
