@@ -1,0 +1,43 @@
+// Source: LeetCode-1011: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+// Example Input: weights = [1,2,3,4,5,6,7,8,9,10], days = 5
+// Output: 15
+
+class Solution {
+    func shipWithinDays(_ weights: [Int], _ days: Int) -> Int {
+        
+        var right = weights.reduce(0, +)
+        var left = weights.max()!
+
+        while left <= right {
+            let mid = left + (right - left) / 2
+            if isValid(weights, mid, days) {
+                right = mid - 1
+            } else {
+                left = mid + 1
+            }
+        }
+
+        return left
+    }
+    
+    func isValid(_ weights: [Int], _ capacity: Int, _ days: Int) -> Bool {
+        var d = 1
+        var sum = 0
+        
+        for w in weights {
+            if sum + w <= capacity {
+                sum += w
+            } else {
+                d += 1
+                sum = w
+            }
+            
+            if d > days {
+                return false
+            }
+        }
+
+            return true
+        } 
+
+}
