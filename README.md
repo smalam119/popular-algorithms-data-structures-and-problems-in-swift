@@ -41,6 +41,7 @@ toward that process. Feel free to contribute. Cheers.
 * [Buy sell stock](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/BuySellStock)
 * [Buy sell stock 2](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/BuySellStock2)
 * [Buy sell stock 3](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/BuySellStock3)
+* [Capacity To Ship Packages Within D Days](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/CapacityToShipPackagesWithinDDays)
 * [Common Character](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/ProblemSolving/CommonCharacter)
 * [Count Pair](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/blob/master/ProblemSolving/CountPair)
 * [Count Space](https://github.com/smalam119/classic-problem-solving-and-data-structures-in-swift/blob/master/ProblemSolving/CountSpace.swift)
