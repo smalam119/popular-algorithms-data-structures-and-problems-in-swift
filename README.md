@@ -8,7 +8,7 @@ toward that process. Feel free to contribute. Cheers.
     * [Binary Search](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/Algorithms/Search/BinarySearch)
     * [Linear Search](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Search/LinearSearch.playground)
 * Sort
-    * [Bubble Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/BubbleSort.playground)
+    * [Bubble Sort](https://github.com/smalam119/popular-algorithms-data-structures-and-problems-in-swift/blob/master/Algorithms/Sort/BubbleSort)
     * [Selection Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/SelectionSort.playground)
     * [Selection Sort - Alternative](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/SelectionSortAlt.playground)
     * [Insertion Sort](https://github.com/smalam119/classic-problem-solving-algorithms-and-data-structures-in-swift/tree/master/Algorithms/Sort/InsertionSort.playground)
