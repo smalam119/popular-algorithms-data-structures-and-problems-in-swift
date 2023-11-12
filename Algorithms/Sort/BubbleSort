@@ -1,0 +1,21 @@
+import Foundation
+
+var input = [1,5,3,7,2,9,5,4,8,6,1]
+
+func bubbleSort(_ input: inout [Int]) -> [Int] {
+  var k = 0
+  
+  for _ in 0..<input.count - k {
+    for j in 0..<input.count - 1 - k {
+      if input[j] > input[j + 1] {
+        let temp = input[j]
+        input[j] = input[j + 1]
+        input[j + 1] = temp
+      }
+    }
+    k += 1
+  }
+  return input
+}
+
+print(bubbleSort(&input))
